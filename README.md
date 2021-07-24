@@ -15,8 +15,8 @@ I also have been building some web apps
 
 
 ## Connect with me
-[<img align="left" alt="Ashlyn | Twitter" width="30px" src="https://img.icons8.com/color/48/000000/twitter--v1.png" />][twitter]
-[<img align="left" alt="Ashlyn | LinkedIn" width="30px" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]
+[<img align="left" alt="Ashlyn | Twitter" width="30px" src="https://img.icons8.com/color/48/000000/twitter--v1.png" />][twitter]{:target="_blank"}
+[<img align="left" alt="Ashlyn | LinkedIn" width="30px" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]{:target="_blank"}
 [<img align="left" alt="Ashlyn | Email" width="30px" src="https://img.icons8.com/emoji/48/000000/envelope-.png"/>][email]
 <br />
 
