@@ -3,15 +3,17 @@
 ## About me
 I am a computer science student at NC State. I completed a full 3 rotations of a co-op on a DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
-Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning. 
-
-Outside of programming, I spend much of my time running or rowing out of doors or at the gym. I also love listening to, playing, and writing music. My love for these two things can be seen in my work on Pumpify, where I am trying to create personalized workout-specific playlists.
+Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning.
 
 I also have been building some web apps
 * [Portfolio][website]
 * [Pumpify](https://achapcomputing.github.io/pumpify)
 
----
+Outside of programming, I spend much of my time running or rowing out of doors or at the gym. I also love listening to, playing, and writing music. My love for these two things can be seen in my work on [Pumpify](https://achapcomputing.github.io/pumpify), where I am trying to create personalized workout-specific playlists.
+
+On this account you can find all of my personal work. Anything I created for school exists in private repositories, so that I do not enable cheating. 
+
+Additionally, any of demos or trainings I complete to learn a new topic live in a GitHub organization, [achap-archive][archive]. These demos I reference rather often, but cluttered my personal GitHub profile.
 
 ## Connect with me
 [<img align="left" alt="Ashlyn | Twitter" width="30px" src="https://img.icons8.com/color/48/000000/twitter--v1.png" />][twitter]
@@ -41,7 +43,7 @@ My most used languages on my personal projects. However, most of my university p
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red)
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![VS Code](https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 <!-- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) -->
 
 #### Containers
@@ -72,3 +74,4 @@ My latest posts on my website.
 [twitter]: https://twitter.com/achapcomputing
 [linkedin]: https://linkedin.com/in/apchapman
 [email]: mailto:%20apchapma@ncsu.edu
+[archive]: https://github.com/achap-archive
