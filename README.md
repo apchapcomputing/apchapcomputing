@@ -18,6 +18,11 @@ I also have been building some web apps
 
 ## Think with me
 <!-- BLOG-POST-LIST:START -->
+- [When learning is not constructive: programming as a creative endeavor](https://YOURAPPNAME.herokuapp.com/when-learning-is-not-constructive/)
+- [Science fiction is a serious expression of American spirituality](https://YOURAPPNAME.herokuapp.com/science-fiction-is-a-serious-expression-of-american-spirituality/)
+- [X-as-a-Service: 3 Classifications of Cloud Services](https://YOURAPPNAME.herokuapp.com/x-as-a-service-3-classifications-of-cloud-services/)
+- [The 3 best types of projects to learn to think like an engineer](https://YOURAPPNAME.herokuapp.com/the-3-best-types-of-projects-to-learn-to-think-like-an-engineer/)
+- [3 reasons I finally entered the crypto market](https://YOURAPPNAME.herokuapp.com/3-reasons-i-finally-entered-the-crypto-market-big-dip/)
 <!-- BLOG-POST-LIST:END -->
 <!-- From https://github.com/gautamkrishnar/blog-post-workflow -->
 
