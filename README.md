@@ -1,5 +1,6 @@
-## Hi, I'm Ashlyn
+# Hi, I'm Ashlyn
 
+## About me
 I am a computer science student at NC State. I completed a full 3 rotations of a co-op on a DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
 Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning. 
@@ -10,13 +11,21 @@ I also have been building some web apps
 * [Portfolio][website]
 * [Pumpify](https://achapcomputing.github.io/pumpify)
 
-## Connect with me
 
+## Code with me
+My most used languages on my personal projects. However, most of my university projects are built with Java or C, and my work history focused on Python.
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=achapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+
+## Connect with me
 [<img align="left" alt="Ashlyn | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="Ashlyn | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 <br />
 
+
 ## Think with me
+My latest posts on my website.
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 <!-- From https://github.com/gautamkrishnar/blog-post-workflow -->
