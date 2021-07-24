@@ -52,6 +52,7 @@ My most used languages on my personal projects. However, most of my university p
 <img alt="AWS" src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
 <img alt="Google Cloud" src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"/>
 
+<!-- Tech badges from https://github.com/Ileriayo/markdown-badges#programming-languages -->
 
 ---
 
@@ -64,7 +65,7 @@ My latest posts on my website.
 - [The 3 best types of projects to learn to think like an engineer](https://YOURAPPNAME.herokuapp.com/the-3-best-types-of-projects-to-learn-to-think-like-an-engineer/)
 - [3 reasons I finally entered the crypto market](https://YOURAPPNAME.herokuapp.com/3-reasons-i-finally-entered-the-crypto-market-big-dip/)
 <!-- BLOG-POST-LIST:END -->
-<!-- From https://github.com/gautamkrishnar/blog-post-workflow -->
+<!-- Workflow from https://github.com/gautamkrishnar/blog-post-workflow -->
 
 
 [website]: https://ashlynchapman.com
