@@ -1,7 +1,5 @@
 # Hi, I'm Ashlyn
 
-![Twitter Follow](https://img.shields.io/twitter/follow/achapcomputing?color=%231DA1F2&label=Follow&logo=Twitter&style=flat-square)
-
 ## About me
 I am a computer science student at NC State. I completed a full 3 rotations of a co-op on a DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
