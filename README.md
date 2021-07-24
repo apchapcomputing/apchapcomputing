@@ -1,5 +1,7 @@
 # Hi, I'm Ashlyn
 
+![Twitter Follow](https://img.shields.io/twitter/follow/achapcomputing?color=%231DA1F2&label=Follow&logo=Twitter&style=flat-square)
+
 ## About me
 I am a computer science student at NC State. I completed a full 3 rotations of a co-op on a DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
@@ -12,16 +14,16 @@ I also have been building some web apps
 * [Pumpify](https://achapcomputing.github.io/pumpify)
 
 
+## Connect with me
+[<img align="left" alt="Ashlyn | Twitter" width="30px" src="https://img.icons8.com/color/48/000000/twitter--v1.png" />][twitter]
+[<img align="left" alt="Ashlyn | LinkedIn" width="30px" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]
+[<img align="left" alt="Ashlyn | Email" width="30px" src="https://img.icons8.com/emoji/48/000000/envelope-.png"/>][email]
+<br />
+
 ## Code with me
 My most used languages on my personal projects. However, most of my university projects are built with Java or C, and my work history focused on Python.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=achapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-
-## Connect with me
-[<img align="left" alt="Ashlyn | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="Ashlyn | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-<br />
 
 
 ## Think with me
@@ -39,3 +41,4 @@ My latest posts on my website.
 [website]: https://ashlynchapman.com
 [twitter]: https://twitter.com/achapcomputing
 [linkedin]: https://linkedin.com/in/apchapman
+[email]: mailto:%20apchapma@ncsu.edu
