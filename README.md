@@ -1,6 +1,5 @@
 # Hi, I'm Ashlyn
 
-## About me
 I am a computer science student at NC State. I completed a full 3 rotations of a co-op on the DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
 Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning.
@@ -11,9 +10,11 @@ I also have been building some web apps to learn frontend web development.
 
 Outside of programming, I spend much of my time running or rowing out of doors or at the gym. I also love listening to, playing, and writing music. My love for these two things can be seen in my work on [Pumpify](https://achapcomputing.github.io/pumpify), where I am trying to create personalized workout-specific playlists.
 
-### Sing and dance with me
+## Sing and dance with me
 What I am listening to on Spotify right now
+
 [![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
+ 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
 On this account you can find all of my personal work. Anything I created for school exists in private repositories, so that I do not enable cheating.
