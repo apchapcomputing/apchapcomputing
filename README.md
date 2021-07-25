@@ -24,7 +24,7 @@ Additionally, any demos or trainings I complete to learn a new topic live in a G
 ---
 
 ## Sing and dance with me
-[<img src="https://achapcomputing.vercel.app/api/spotify" alt="achapcomputing Spotify Playing" width="350" />](https://open.spotify.com/user/ashhithh)
+[![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
