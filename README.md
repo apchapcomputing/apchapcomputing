@@ -24,8 +24,7 @@ Additionally, any demos or trainings I complete to learn a new topic live in a G
 ---
 
 ## Sing and dance with me
-
-
+[<img src="https://achapcomputing.vercel.app/api/spotify" alt="achapcomputing Spotify Playing" width="350" />](https://open.spotify.com/user/ashhithh)
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
@@ -75,8 +74,10 @@ My latest posts on my website.
 - [The 3 best types of projects to learn to think like an engineer](https://YOURAPPNAME.herokuapp.com/the-3-best-types-of-projects-to-learn-to-think-like-an-engineer/)
 - [3 reasons I finally entered the crypto market](https://YOURAPPNAME.herokuapp.com/3-reasons-i-finally-entered-the-crypto-market-big-dip/)
 <!-- BLOG-POST-LIST:END -->
+
 <!-- Workflow from https://github.com/gautamkrishnar/blog-post-workflow -->
 
+---
 
 [website]: https://ashlynchapman.com
 [twitter]: https://twitter.com/achapcomputing
