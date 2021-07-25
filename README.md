@@ -1,17 +1,22 @@
 # Hi, I'm Ashlyn
 
 ## About me
-I am a computer science student at NC State. I completed a full 3 rotations of a co-op on a DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
+I am a computer science student at NC State. I completed a full 3 rotations of a co-op on the DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
 
 Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning.
 
-I also have been building some web apps
-* [Portfolio][website]
+I also have been building some web apps to learn frontend web development.
+* [Personal website][website]
 * [Pumpify](https://achapcomputing.github.io/pumpify)
 
 Outside of programming, I spend much of my time running or rowing out of doors or at the gym. I also love listening to, playing, and writing music. My love for these two things can be seen in my work on [Pumpify](https://achapcomputing.github.io/pumpify), where I am trying to create personalized workout-specific playlists.
 
-On this account you can find all of my personal work. Anything I created for school exists in private repositories, so that I do not enable cheating. 
+### Sing and dance with me
+What I am listening to on Spotify right now
+[![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
+ <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
+
+On this account you can find all of my personal work. Anything I created for school exists in private repositories, so that I do not enable cheating.
 
 Additionally, any demos or trainings I complete to learn a new topic live in a GitHub organization, [achap-archive][archive]. These demos I reference rather often, but cluttered my personal GitHub profile.
 
@@ -20,13 +25,6 @@ Additionally, any demos or trainings I complete to learn a new topic live in a G
 [<img align="left" alt="Ashlyn | LinkedIn" width="30px" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]
 [<img align="left" alt="Ashlyn | Email" width="30px" src="https://img.icons8.com/emoji/48/000000/envelope-.png"/>][email]
 <br />
-
----
-
-## Sing and dance with me
-[![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
-
- <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
 ---
 
