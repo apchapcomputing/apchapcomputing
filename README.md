@@ -13,13 +13,21 @@ Outside of programming, I spend much of my time running or rowing out of doors o
 
 On this account you can find all of my personal work. Anything I created for school exists in private repositories, so that I do not enable cheating. 
 
-Additionally, any of demos or trainings I complete to learn a new topic live in a GitHub organization, [achap-archive][archive]. These demos I reference rather often, but cluttered my personal GitHub profile.
+Additionally, any demos or trainings I complete to learn a new topic live in a GitHub organization, [achap-archive][archive]. These demos I reference rather often, but cluttered my personal GitHub profile.
 
 ## Connect with me
 [<img align="left" alt="Ashlyn | Twitter" width="30px" src="https://img.icons8.com/color/48/000000/twitter--v1.png" />][twitter]
 [<img align="left" alt="Ashlyn | LinkedIn" width="30px" src="https://img.icons8.com/color/48/000000/linkedin.png" />][linkedin]
 [<img align="left" alt="Ashlyn | Email" width="30px" src="https://img.icons8.com/emoji/48/000000/envelope-.png"/>][email]
 <br />
+
+---
+
+## Sing and dance with me
+
+
+
+ <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
 ---
 
