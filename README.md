@@ -43,11 +43,12 @@ My most used languages on my personal projects. However, most of my university p
 ![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red)
-![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 <!-- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+<!-- Add Adobe illustrator if a ever figure it out! -->
 
+<!-- >
 #### Containers
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -63,11 +64,11 @@ My most used languages on my personal projects. However, most of my university p
 <!-- ## Think with me
 My latest posts on my website. -->
 <!-- BLOG-POST-LIST:START -->
-<!-- - [When learning is not constructive: programming as a creative endeavor](https://YOURAPPNAME.herokuapp.com/when-learning-is-not-constructive/)
+<!-- - [Atlas Shrugged Impressions](https://YOURAPPNAME.herokuapp.com/atlas-shrugged/)
+- [When learning is not constructive: programming as a creative endeavor](https://YOURAPPNAME.herokuapp.com/when-learning-is-not-constructive/)
 - [Science fiction is a serious expression of American spirituality](https://YOURAPPNAME.herokuapp.com/science-fiction-is-a-serious-expression-of-american-spirituality/)
 - [X-as-a-Service: 3 Classifications of Cloud Services](https://YOURAPPNAME.herokuapp.com/x-as-a-service-3-classifications-of-cloud-services/)
-- [The 3 best types of projects to learn to think like an engineer](https://YOURAPPNAME.herokuapp.com/the-3-best-types-of-projects-to-learn-to-think-like-an-engineer/)
-- [3 reasons I finally entered the crypto market](https://YOURAPPNAME.herokuapp.com/3-reasons-i-finally-entered-the-crypto-market-big-dip/) -->
+- [The 3 best types of projects to learn to think like an engineer](https://YOURAPPNAME.herokuapp.com/the-3-best-types-of-projects-to-learn-to-think-like-an-engineer/) -->
 <!-- BLOG-POST-LIST:END -->
 
 <!-- Workflow from https://github.com/gautamkrishnar/blog-post-workflow -->
