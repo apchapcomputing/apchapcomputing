@@ -7,7 +7,7 @@ Most of my previous experience centers around infrastructure and automation. In 
 I also have been building some web apps to learn frontend web development.
 
 - [Personal website][website]
-- [Pumpify](https://achapcomputing.github.io/pumpify)
+- [Pumpify](https://apchapcomputing.github.io/pumpify)
 
 Outside of programming, I spend much of my time running or rowing out of doors or at the gym. I also love listening to, playing, and writing music. My love for these two things can be seen in my work on [Pumpify](https://achapcomputing.github.io/pumpify), where I am trying to create personalized workout-specific playlists.
 
@@ -28,7 +28,9 @@ On this account you can find all of my personal work. Anything I created for sch
 
 My most used languages on my personal projects. However, most of my university projects are built with Java or C, and my work history focused on Python.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=achapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+You can also check out my progress on [100 Days of CSS](https://100dayscss.com/progress/achapcomputing/) and my [CodePen collection](https://codepen.io/collection/xKZxPr)
 
 <!-- ### Languages
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
