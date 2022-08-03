@@ -1,8 +1,8 @@
 # Hi, I'm Ashlyn
 
-I am a computer science student at NC State. I completed a full 3 rotations of a co-op on the DevOps team at LexisNexis. Currently, I am interning on an IT team at Cisco where I work with Django and containers.
+I am a computer science student at NC State.
 
-Most of my previous experience centers around infrastructure and automation. In the future, I am looking to learn more about data. This fall I am taking a databases course and a course about data analysis and automated learning.
+Most of my previous work experience centers around infrastructure, cloud, and automation.
 
 I also have been building some web apps to learn frontend web development.
 
@@ -30,37 +30,6 @@ My most used languages on my personal projects. However, most of my university p
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-You can also check out my progress on [100 Days of CSS](https://100dayscss.com/progress/achapcomputing/) and my [CodePen collection](https://codepen.io/collection/xKZxPr)
-
-<!-- ### Languages
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white")
-
-### Frameworks
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-
-### Tools
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![VS Code](https://img.shields.io/badge/VisualStudioCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-<!-- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-<!-- Add Adobe illustrator if a ever figure it out! -->
-
-<!-- >
-#### Containers
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-#### Cloud
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) -->
-
-<!-- Tech badges from https://github.com/Ileriayo/markdown-badges#programming-languages -->
-
 ---
 
 <!-- ## Think with me
@@ -75,7 +44,9 @@ My latest posts on my website. -->
 
 <!-- Workflow from https://github.com/gautamkrishnar/blog-post-workflow -->
 
-## What I am listening to on Spotify right now
+## Listen with me
+
+What I am listening to on Spotify right now
 
 [![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
 
