@@ -48,7 +48,7 @@ My latest posts on my website. -->
 
 What I am listening to on Spotify right now
 
-[![Spotify](https://achapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
+[![Spotify](https://apchapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
