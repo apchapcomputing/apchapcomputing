@@ -44,11 +44,11 @@ My latest posts on my website. -->
 
 <!-- Workflow from https://github.com/gautamkrishnar/blog-post-workflow -->
 
-## Listen with me
+<!-- ## Listen with me
 
 What I am listening to on Spotify right now
 
-[![Spotify](https://apchapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
+[![Spotify](https://apchapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh) -->
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
