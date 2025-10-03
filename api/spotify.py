@@ -5,7 +5,10 @@ import requests
 
 from base64 import b64encode
 from dotenv import load_dotenv, find_dotenv
-from flask import Flask, Response, render_template
+from fastapi import FastAPI
+from fastapi.responses import Response
+from fastapi.templating import Jinja2Templates
+from mangum import Mangum
 
 load_dotenv(find_dotenv())
 
@@ -25,7 +28,8 @@ RECENTLY_PLAYING_URL = (
     "https://api.spotify.com/v1/me/player/recently-played?limit=10"
 )
 
-app = Flask(__name__)
+app = FastAPI()
+templates = Jinja2Templates(directory="api/templates")
 
 
 def getAuth():
@@ -129,20 +133,26 @@ def makeSVG(data):
         "status": currentStatus,
     }
 
-    return render_template(getTemplate(), **template_data)
+    template = templates.get_template(getTemplate())
+    return template.render(**template_data)
 
 
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
-def catch_all(path):
+@app.get("/")
+@app.get("/{path:path}")
+async def catch_all(path: str = ""):
     data = nowPlaying()
     svg = makeSVG(data)
 
-    resp = Response(svg, mimetype="image/svg+xml")
-    resp.headers["Cache-Control"] = "s-maxage=1"
+    return Response(
+        content=svg,
+        media_type="image/svg+xml",
+        headers={"Cache-Control": "s-maxage=1"}
+    )
 
-    return resp
 
+# For Vercel deployment
+handler = Mangum(app)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
