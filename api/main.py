@@ -139,14 +139,30 @@ def makeSVG(data):
 
 @app.get("/")
 async def spotify_widget():
-    data = nowPlaying()
-    svg = makeSVG(data)
+    try:
+        data = nowPlaying()
+        svg = makeSVG(data)
 
-    return Response(
-        content=svg,
-        media_type="image/svg+xml",
-        headers={"Cache-Control": "s-maxage=1"}
-    )
+        return Response(
+            content=svg,
+            media_type="image/svg+xml",
+            headers={"Cache-Control": "s-maxage=1"}
+        )
+    except Exception as e:
+        return {"error": str(e), "message": "Spotify widget failed"}
+
+
+@app.get("/health")
+async def health_check():
+    return {
+        "status": "ok",
+        "message": "FastAPI on Vercel is working!",
+        "env_vars_set": {
+            "client_id": bool(SPOTIFY_CLIENT_ID),
+            "secret_id": bool(SPOTIFY_SECRET_ID),
+            "refresh_token": bool(SPOTIFY_REFRESH_TOKEN)
+        }
+    }
 
 
 @app.get("/{path:path}")
@@ -162,9 +178,7 @@ async def catch_all(path: str):
 
 
 # For Vercel deployment
-def handler(event, context):
-    asgi_handler = Mangum(app)
-    return asgi_handler(event, context)
+handler = Mangum(app, lifespan="off")
 
 
 if __name__ == "__main__":

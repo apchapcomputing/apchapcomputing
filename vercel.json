@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/main.py": {
+      "runtime": "python3.12"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/spotify",
+      "dest": "/api/main.py"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/apchapcomputing/apchapcomputing"
+    }
+  ]
+}
