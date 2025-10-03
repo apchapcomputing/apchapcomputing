@@ -1,23 +1,14 @@
 {
-  "functions": {
-    "api/main.py": {
-      "runtime": "python3.12"
-    }
-  },
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/spotify",
-      "destination": "/api/main.py"
-    },
-    {
-      "source": "/api/spotify/(.*)",
-      "destination": "/api/main.py"
+      "src": "api/main.py",
+      "use": "@vercel/python"
     }
   ],
-  "redirects": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "https://github.com/apchapcomputing/apchapcomputing"
+      "src": "/(.*)",
+      "dest": "api/main.py"
     }
   ]
 }
