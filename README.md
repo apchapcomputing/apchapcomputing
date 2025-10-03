@@ -12,12 +12,9 @@
 ## Code with me
 
 My most used languages on my personal projects. However, most of my university projects are built with Java or C, and my work history focused on Python.
-
-<div align="center">
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-</div>
 
 ---
 
@@ -37,11 +34,8 @@ My latest posts on my website. -->
 
 What I am listening to on Spotify now (or recently)
 
-<div align="center">
+[![Spotify](https://spotify-github-profile-apchapcomputings-projects.vercel.app)](https://open.spotify.com/user/ashhithh)
 
-[![Spotify](https://apchapcomputing.vercel.app/api/spotify)](https://open.spotify.com/user/ashhithh)
-
-</div>
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
 
