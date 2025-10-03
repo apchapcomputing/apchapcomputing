@@ -34,7 +34,9 @@ My latest posts on my website. -->
 
 What I am listening to on Spotify now (or recently)
 
-[![Spotify](https://spotify-github-profile-apchapcomputings-projects.vercel.app)](https://open.spotify.com/user/ashhithh)
+![Spotify](https://spotify-github-profile-apchapcomputings-projects.vercel.app)
+
+<img src="https://spotify-github-profile-apchapcomputings-projects.vercel.app">
 
 
  <!-- From https://github.com/novatorem/novatorem/blob/master/api/spotify.py -->
