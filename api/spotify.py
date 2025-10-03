@@ -5,7 +5,7 @@ import requests
 
 from base64 import b64encode
 from dotenv import load_dotenv, find_dotenv
-from flask import Flask, Response, jsonify, render_template, templating
+from flask import Flask, Response, render_template
 
 load_dotenv(find_dotenv())
 
@@ -27,45 +27,42 @@ RECENTLY_PLAYING_URL = (
 
 app = Flask(__name__)
 
+
 def getAuth():
-    return b64encode(f"{SPOTIFY_CLIENT_ID}:{SPOTIFY_SECRET_ID}".encode()).decode(
-        "ascii"
-    )
+    return b64encode(f"{SPOTIFY_CLIENT_ID}:{SPOTIFY_SECRET_ID}".encode()).decode()
+
 
 def refreshToken():
     data = {
         "grant_type": "refresh_token",
         "refresh_token": SPOTIFY_REFRESH_TOKEN,
     }
-
-    headers = {"Authorization": "Basic {}".format(getAuth())}
+    headers = {"Authorization": f"Basic {getAuth()}"}
     response = requests.post(REFRESH_TOKEN_URL, data=data, headers=headers)
+    
+    response_data = response.json()
+    if "access_token" not in response_data:
+        print(f"Token refresh failed: {response_data}")
+        raise KeyError(f"Access token not found: {response_data}")
+    
+    return response_data["access_token"]
 
-    try:
-        return response.json()["access_token"]
-    except KeyError:
-        print(json.dumps(response.json()))
-        print("\n---\n")
-        raise KeyError(str(response.json()))
 
-def recentlyPlayed():
+def _spotify_api_request(url):
+    """Helper function to make Spotify API requests"""
     token = refreshToken()
     headers = {"Authorization": f"Bearer {token}"}
-    response = requests.get(RECENTLY_PLAYING_URL, headers=headers)
+    response = requests.get(url, headers=headers)
+    return {} if response.status_code == 204 else response.json()
 
-    if response.status_code == 204:
-        return {}
-    return response.json()
+
+def recentlyPlayed():
+    return _spotify_api_request(RECENTLY_PLAYING_URL)
 
 
 def nowPlaying():
-    token = refreshToken()
-    headers = {"Authorization": f"Bearer {token}"}
-    response = requests.get(NOW_PLAYING_URL, headers=headers)
+    return _spotify_api_request(NOW_PLAYING_URL)
 
-    if response.status_code == 204:
-        return {}
-    return response.json()
 
 def barGen(barCount):
     barCSS = ""
@@ -80,53 +77,60 @@ def barGen(barCount):
         left += 4
     return barCSS
 
+
 def getTemplate():
     try:
-        file = open("api/templates.json","r")
-        templates = json.loads(file.read())
-        return templates["templates"][templates["current-theme"]]
+        with open("api/templates.json", "r") as file:
+            templates = json.load(file)
+            return templates["templates"][templates["current-theme"]]
     except Exception as e:
-        print(f"Failed to load templates.")
+        print(f"Failed to load templates: {e}")
         return FALLBACK_THEME
 
+
 def loadImageB64(url):
-    resposne = requests.get(url)
-    return b64encode(resposne.content).decode("ascii")
+    response = requests.get(url)
+    return b64encode(response.content).decode()
+
 
 def makeSVG(data):
     barCount = 84
-    contentBar = "".join(["<div class='bar'></div>" for i in range(barCount)])
+    contentBar = "".join("<div class='bar'></div>" for _ in range(barCount))
     barCSS = barGen(barCount)
 
-    if data == {} or data["item"] == "None" or data["item"] is None:
-        # contentBar = "" #Shows/Hides the EQ bar if no song is currently playing
+    # Get current or recent track
+    if not data or not data.get("item"):
         currentStatus = "Was playing:"
-        recentPlays = recentlyPlayed()
-        recentPlaysLength = len(recentPlays["items"])
-        itemIndex = random.randint(0, recentPlaysLength - 1)
-        item = recentPlays["items"][itemIndex]["track"]
+        recent_plays = recentlyPlayed()
+        if recent_plays and recent_plays.get("items"):
+            item = random.choice(recent_plays["items"])["track"]
+        else:
+            # Fallback if no recent plays
+            item = {"album": {"images": []}, "artists": [{"name": "Unknown"}], "name": "No music"}
     else:
         item = data["item"]
         currentStatus = "Vibing to:"
-    
-    if item["album"]["images"] == []:
-        image = PLACEHOLDER_IMAGE
-    else : 
+
+    # Get album image or use placeholder
+    image = PLACEHOLDER_IMAGE
+    if item.get("album", {}).get("images"):
         image = loadImageB64(item["album"]["images"][1]["url"])
 
-    artistName = item["artists"][0]["name"].replace("&", "&amp;")
-    songName = item["name"].replace("&", "&amp;")
+    # Escape HTML entities
+    artist_name = item["artists"][0]["name"].replace("&", "&amp;")
+    song_name = item["name"].replace("&", "&amp;")
 
-    dataDict = {
+    template_data = {
         "contentBar": contentBar,
         "barCSS": barCSS,
-        "artistName": artistName,
-        "songName": songName,
+        "artistName": artist_name,
+        "songName": song_name,
         "image": image,
         "status": currentStatus,
     }
 
-    return render_template(getTemplate(), **dataDict)
+    return render_template(getTemplate(), **template_data)
+
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
@@ -138,6 +142,7 @@ def catch_all(path):
     resp.headers["Cache-Control"] = "s-maxage=1"
 
     return resp
+
 
 if __name__ == "__main__":
     app.run(debug=True)
