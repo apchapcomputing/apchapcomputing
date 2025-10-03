@@ -4,10 +4,14 @@
       "runtime": "python3.12"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/spotify",
-      "dest": "/api/main.py"
+      "source": "/api/spotify",
+      "destination": "/api/main.py"
+    },
+    {
+      "source": "/api/spotify/(.*)",
+      "destination": "/api/main.py"
     }
   ],
   "redirects": [
