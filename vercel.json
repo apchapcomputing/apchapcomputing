@@ -1,9 +1,19 @@
 {
   "functions": {
-    "api/spotify.py": {
+    "api/main.py": {
       "runtime": "python3.12"
     }
   },
+  "routes": [
+    {
+      "src": "/api/spotify/(.*)",
+      "dest": "/api/main.py"
+    },
+    {
+      "src": "/api/spotify",
+      "dest": "/api/main.py"
+    }
+  ],
   "redirects": [
     {
       "source": "/",

@@ -138,8 +138,19 @@ def makeSVG(data):
 
 
 @app.get("/")
+async def spotify_widget():
+    data = nowPlaying()
+    svg = makeSVG(data)
+
+    return Response(
+        content=svg,
+        media_type="image/svg+xml",
+        headers={"Cache-Control": "s-maxage=1"}
+    )
+
+
 @app.get("/{path:path}")
-async def catch_all(path: str = ""):
+async def catch_all(path: str):
     data = nowPlaying()
     svg = makeSVG(data)
 
@@ -151,7 +162,10 @@ async def catch_all(path: str = ""):
 
 
 # For Vercel deployment
-handler = Mangum(app)
+def handler(event, context):
+    asgi_handler = Mangum(app)
+    return asgi_handler(event, context)
+
 
 if __name__ == "__main__":
     import uvicorn
