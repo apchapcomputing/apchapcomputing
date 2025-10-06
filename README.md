@@ -36,8 +36,7 @@ My latest posts on my website. -->
 
 What I am listening to on Spotify now (or recently)
 
-[spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ashhithh&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false&mode=light)
-
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ashhithh&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false&mode=light)]()
 
 [website]: https://ashlynchapman.com
 <!-- [twitter]: https://twitter.com/achapcomputing -->
