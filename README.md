@@ -12,11 +12,10 @@
 
 ### Code with me
 
-My go to tech stack for personal full-stack projects: 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) 	![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+My go to tech stack for personal full-stack projects:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
   
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
@@ -38,8 +37,6 @@ What I am listening to on Spotify now (or recently)
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=ashhithh&cover_image=true&theme=spotify-embed&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false&mode=light)]()
 
-[website]: https://ashlynchapman.com
 <!-- [twitter]: https://twitter.com/achapcomputing -->
 [linkedin]: https://linkedin.com/in/apchapman
 [email]: mailto:%20apchap@outlook.com
-[archive]: https://github.com/achap-archive
