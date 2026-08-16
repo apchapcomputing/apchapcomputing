@@ -15,7 +15,7 @@
 My go to tech stack for personal full-stack projects:
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
   
-[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=apchapcomputing&layout=compact&theme=gruvbox)](https://github.com/stats-organization/github-stats-extended)
 
 ---
 
